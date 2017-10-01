@@ -85,7 +85,7 @@ names(activitydata) <- gsub("^t", "time_", names(activitydata))
 names(activitydata) <- gsub("^f", "frequency_", names(activitydata)) 
 names(activitydata) <- gsub("BodyBody", "body_", names(activitydata)) 
 names(activitydata) <- gsub("Mag", "_mag", names(activitydata)) 
-names(activitydata) <- gsub("Body", "_body_", names(activitydata)) 
+names(activitydata) <- gsub("Body", "body_", names(activitydata)) 
 names(activitydata) <- gsub("Gravity", "_gravity_", names(activitydata)) 
 names(activitydata) <- gsub("-", "_", names(activitydata)) 
 
