@@ -63,3 +63,6 @@ The following files are available for the train and test data. Their description
 8. Appropriately label the data set with descriptive variable names
 9. From the data set in step 8, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+<b>Project Files:</b>
+1. run_analysis.R: The R script to clean the data
+2. Codebook.md: Explanation of the data and the data cleaning process
